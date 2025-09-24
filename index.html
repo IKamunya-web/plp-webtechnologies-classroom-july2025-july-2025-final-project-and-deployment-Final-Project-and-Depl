@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Acme Studio — Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Acme<span>Studio</span></a>
+      <button id="nav-toggle" aria-controls="primary-nav" aria-expanded="false" class="nav-toggle">☰ <span class="sr-only">Menu</span></button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Design & Build — Clean, fast, and accessible websites</h1>
+        <p class="lead">We create responsive, performance-minded websites that delight users and scale with your needs.</p>
+        <p><a href="portfolio.html" class="btn">View Portfolio</a></p>
+      </div>
+    </section>
+
+    <section class="features container">
+      <article>
+        <h2>Responsive by design</h2>
+        <p>Layouts built mobile-first using CSS Grid and Flexbox so your site looks great on any device.</p>
+      </article>
+      <article>
+        <h2>Interactive UI</h2>
+        <p>Meaningful JavaScript-driven interactions: accessible menus, form validation, and subtle animations.</p>
+      </article>
+      <article>
+        <h2>Production-ready</h2>
+        <p>Organized code, optimized assets, and deployment instructions included.</p>
+      </article>
+    </section>
+
+    <section class="work container" id="work">
+      <h2>Selected Work</h2>
+      <div class="grid">
+        <figure class="card">
+          <img src="images/project1.jpg" alt="Screenshot of project 1" loading="lazy">
+          <figcaption>
+            <h3>Project Alpha</h3>
+            <p>Landing page redesign for a fintech startup.</p>
+          </figcaption>
+        </figure>
+        <figure class="card">
+          <img src="images/project2.jpg" alt="Screenshot of project 2" loading="lazy">
+          <figcaption>
+            <h3>Commerce Revamp</h3>
+            <p>Conversion-oriented product pages and checkout flow.</p>
+          </figcaption>
+        </figure>
+        <figure class="card">
+          <img src="images/project3.jpg" alt="Screenshot of project 3" loading="lazy">
+          <figcaption>
+            <h3>Portfolio CMS</h3>
+            <p>Custom content platform and editor UI.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Acme Studio — Built with care.</p>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

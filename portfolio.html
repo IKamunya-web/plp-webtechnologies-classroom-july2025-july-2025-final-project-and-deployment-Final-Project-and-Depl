@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Acme Studio — Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Acme<span>Studio</span></a>
+      <button id="nav-toggle-3" aria-controls="primary-nav" aria-expanded="false" class="nav-toggle">☰ <span class="sr-only">Menu</span></button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Portfolio</h1>
+    <p class="lead">Selected case studies and screenshots.</p>
+
+    <section class="grid work-list">
+      <article class="project-card">
+        <img src="images/project1.jpg" alt="Project 1 screenshot" loading="lazy">
+        <div class="card-body">
+          <h3>Project Alpha</h3>
+          <p>Landing page redesign with accessibility improvements and A/B tested hero.</p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img src="images/project2.jpg" alt="Project 2 screenshot" loading="lazy">
+        <div class="card-body">
+          <h3>Commerce Revamp</h3>
+          <p>Improved product pages and checkout flow reducing friction and bounce.</p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img src="images/project3.jpg" alt="Project 3 screenshot" loading="lazy">
+        <div class="card-body">
+          <h3>Portfolio CMS</h3>
+          <p>Custom content editor and fast-rendering frontend templates.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year-3"></span> Acme Studio — Built with care.</p>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

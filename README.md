@@ -1,90 +1,38 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Multipage Website Project — Acme Studio (Starter)
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+This is a starter multipage static website demonstrating modern HTML5, responsive CSS, accessible semantics, lightweight JavaScript, and deployment readiness.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+## What’s included
+- `index.html`, `about.html`, `portfolio.html`, `contact.html`
+- `/css/styles.css` — responsive, mobile-first styles
+- `/js/main.js` — modular ES-module script: menu, scroll reveal, contact validation
+- `/images/` — placeholder images (you should replace these with real optimized images)
+- `README.md` — this file
 
----
+## Project purpose
+A simple portfolio-style site to showcase projects, explain approach, and provide contact details. Designed for teaching and as a production-ready starter.
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## How to run locally
+1. Clone the repo or extract the ZIP.
+2. Open `index.html` in a browser. For best results use a local dev server (recommended):
+   - Python 3: `python -m http.server 8000`
+   - Node (http-server): `npx http-server -c-1`
+3. Visit `http://localhost:8000` (or the port your server uses).
 
-Before you write any code, take time to plan:
+## Accessibility & Performance notes
+- Uses semantic elements (`header`, `nav`, `main`, `section`, `article`, `footer`) and visible focus states.
+- Images use `loading="lazy"`; replace images with optimized `srcset` variants for production.
+- JavaScript is deferred (module) to avoid render-blocking.
+- Test with HTML/CSS validators and Lighthouse for performance/accessibility suggestions.
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+## Deployment
+Recommended options:
+- **GitHub Pages**: push repository to GitHub and enable GitHub Pages (main branch or `/docs`).
+- **Netlify / Vercel**: drag-and-drop or connect the Git repo for continuous deployment.
 
-**Goal:** Show intentional structure and user journey across the site.
-
----
-
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+## Extend & Improve
+- Add `srcset` and WebP variants for images.
+- Hook contact form to a serverless function (Netlify Functions, Vercel Serverless, or a simple backend).
+- Minify CSS/JS and add a simple build pipeline (esbuild, Vite, or webpack).
 
 ---
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
